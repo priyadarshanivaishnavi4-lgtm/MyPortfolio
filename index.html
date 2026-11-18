@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of a Computer Science student">
+    <title>My Portfolio | Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">My<span>Portfolio.</span></a>
+
+            <button class="menu-btn" id="menu-btn"
+                aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="theme-btn" class="theme-btn"
+                aria-label="Switch color theme">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hi, I'm <span>Vaishnavi Priyadarshani</span></h1>
+
+                <h2>I'm a <span id="typing">Student</span></h2>
+
+                <p class="hero-description">
+                    I am a passionate student interested in technology,
+                    programming and web development. I enjoy learning
+                    new skills and creating useful digital projects.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/yourusername"
+                       target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/yourusername/"
+                       target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="IMG_20261118_122306.jpg"
+                     alt="My Profile Photo"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="profile-placeholder">YN</div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="section-heading">
+                <p>GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-card">
+                    <h3>Who Am I?</h3>
+                    <p>
+                        Hello! My name is Vaishnavi Priyadarshani. I am currently pursuing
+                        my Bachelor's degree in Technology. I am interested
+                        in learning programming, web development and modern
+                        technologies.
+                    </p>
+                    <p>
+                        My goal is to improve my technical knowledge,
+                        develop practical projects and become a skilled
+                        professional in the IT industry.
+                    </p>
+
+                    <a href="assets/resume.pdf" class="btn"
+                       download>Download Resume</a>
+                </div>
+
+                <div class="about-details">
+                    <div><strong>Name:</strong> Vaishnavi Priyadarshani</div>
+                    <div><strong>Course:</strong> B.Tech</div>
+                    <div><strong>Specialization:</strong> CSE</div>
+                    <div><strong>Location:</strong> India</div>
+                    <div><strong>Email:</strong> vaishnavi16thakur84@gmail.com</div>
+                    <div><strong>Interest:</strong> Coding & Web Development</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section alternate" id="education">
+            <div class="section-heading">
+                <p>MY ACADEMIC BACKGROUND</p>
+                <h2>My <span>Education</span></h2>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="year">2025-2026 - Present</span>
+                        <h3>Bachelor of Technology (B.Tech)</h3>
+                        <h4>Shri Ramswaroop Memorial University</h4>
+                        <p>Currently pursuing my undergraduate degree.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="year">2022 - 2024</span>
+                        <h3>Intermediate (Class 12th)</h3>
+                        <h4>A.J.M. College</h4>
+                        <p>Completed higher secondary education.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="year">2021 - 2023</span>
+                        <h3>High School (Class 10th)</h3>
+                        <h4>Uchcha Madhaymik Vidayalaya, Siwaisinghpur</h4>
+                        <p>Completed secondary education.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="section-heading">
+                <p>WHAT I KNOW</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>HTML</h3>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" data-width="80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>CSS</h3>
+                        <span>70%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" data-width="70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>JavaScript</h3>
+                        <span>60%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" data-width="60%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>Python</h3>
+                        <span>65%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" data-width="65%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>C Programming</h3>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" data-width="60%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>SQL</h3>
+                        <span>55%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" data-width="55%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section alternate" id="projects">
+            <div class="section-heading">
+                <p>MY RECENT WORK</p>
+                <h2>My <span>Projects</span></h2>
+            </div>
+
+            <div class="projects-container">
+
+                <div class="project-card">
+                    <div class="project-icon">🌐</div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        A responsive personal portfolio website created
+                        using HTML, CSS and JavaScript to showcase my
+                        skills, education and projects.
+                    </p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://github.com/yourusername/portfolio"
+                       target="_blank" rel="noopener noreferrer">View Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">📊</div>
+                    <h3>Sales Data Analysis</h3>
+                    <p>
+                        A beginner-friendly data analysis project that
+                        studies sales information, calculates profit
+                        and presents useful business insights.
+                    </p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>SQL</span>
+                    </div>
+                    <a href=https://github.com/priyadarshanivaishnavi4-lgtm
+                       target="_blank" rel="noopener noreferrer">View Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">💻</div>
+                    <h3>Student Management System</h3>
+                    <p>
+                        A simple student management project designed
+                        to organize student details and practice
+                        programming concepts.
+                    </p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Programming</span>
+                    </div>
+                    <a href=https://github.com/priyadarshanivaishnavi4-lgtm
+                       target="_blank" rel="noopener noreferrer">View Project →</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="section-heading">
+                <p>LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+            </div>
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>
+                        Have a question or want to work together?
+                        Feel free to send me a message.
+                    </p>
+
+                    <div class="contact-detail">
+                        <strong>Email</strong>
+                        <p>vaishnavi16thakur84@gmail.com</p>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong>Location</strong>
+                        <p>India</p>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong>GitHub</strong>
+                        <p>https://github.com/priyadarshanivaishnavi4-lgtm</p>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form">
+                    <input type="text" id="name"
+                           placeholder="Your Name" required>
+
+                    <input type="email" id="email"
+                           placeholder="Email Id" required>
+
+                    <input type="text" id="subject"
+                           placeholder="Subject" required>
+
+                    <textarea id="message" rows="5"
+                              placeholder="Message"
+                              required></textarea>
+
+                    <button type="submit" class="btn">
+                        Send Message
+                    </button>
+
+                    <p id="form-status" aria-live="polite"></p>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Vaishnavi Priyadarshani. All Rights Reserved.</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
